@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <h1>Membership Application Form</h1>
+        <p>We offer a membership option tailored to meet your soecific needs. To apply, please complete
+            and submit the membership application form below. If you would like more information about 
+            membership in our organization or the application process, please specify your questions in the 
+            comment box below.</p>
+        
+        <form action="enquiry" method="post">
+        <p><label for="name">Name:</label>
+            <input type="text" id="name" name="user-name"></p>
+        </form>
+        <form action="enquiry" method="post">
+        <p><label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" last name="user-last-name"></p>
+        </form>
+        <form action="enquiry" method="post">
+        <p>Email:
+            <input type="text" id="email" name="user-email" size="20" maxlenght="35"></p>
+        </form>
+       <form action="enquiry" method="post">
+        <p>Phone:
+            <input  type="text" id="phone" name="user-phone" size="20" maxlenght="35"></p>
+        </form>
+        <form action="enquiry" method="post"></form>
+        <fieldset>
+            <legend>Address</legend>
+            <label>Street address:<br />
+            <input type="text" name="street-address" /></label><br />
+            <label>City:<br />
+            <input type="text" name="city" /></label><br />
+            <label>Zip code:<br />
+            <input type="text" name="zip-code" /></label><br />
+            <label>States:<br />
+            <select name="states">
+                <option value="selection">Selection</option>
+                <option value="Maryland">Maryland</option>
+                <option value="Texas">Texas</option> 
+                <option value="California">California</option>
+                <option value="New York">New York</option>
+            </select>
+            
+        </fieldset>
+
+        </form>
+    </body>
+</html>
