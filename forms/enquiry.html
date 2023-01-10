@@ -1,29 +1,30 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title></title>
+      <meta name="description" content="name, last name, email, phone, address" />
+      <title>Form 123 builder</title>
     </head>
     <body>
+        <!--Put a link so we can go back to index.-->
         <h1>Membership Application Form</h1>
         <p>We offer a membership option tailored to meet your soecific needs. To apply, please complete
             and submit the membership application form below. If you would like more information about 
             membership in our organization or the application process, please specify your questions in the 
             comment box below.</p>
-        
-        <form action="enquiry" method="post">
+         <form action="enquiry" method="post">
         <p><label for="name">Name:</label>
             <input type="text" id="name" name="user-name"></p>
         </form>
         <form action="enquiry" method="post">
-        <p><label for="last-name">Last Name:</label>
+            <p><label for="last-name">Last Name:</label>
             <input type="text" id="last-name" last name="user-last-name"></p>
         </form>
         <form action="enquiry" method="post">
-        <p>Email:
+            <p>Email:
             <input type="text" id="email" name="user-email" size="20" maxlenght="35"></p>
         </form>
        <form action="enquiry" method="post">
-        <p>Phone:
+            <p>Phone:
             <input  type="text" id="phone" name="user-phone" size="20" maxlenght="35"></p>
         </form>
         <form action="enquiry" method="post"></form>
@@ -43,9 +44,41 @@
                 <option value="California">California</option>
                 <option value="New York">New York</option>
             </select>
-            
         </fieldset>
-
         </form>
+        <form action="enquiry" method="post">
+            <p>Membership plans:
+                <br />
+                <input type="radio" name="genre" value="standard $200 year"
+                   checked="checked" /> Standard $200 year 
+                <input type="radio" name="genre" value="silver $450 year"
+                   checked="checked" /> Silver $450 year
+                <input type="radio" name="genre" value="Gold $600 year"
+                    checked="checked" /> Gold $600 year
+            </p>
+        </form>
+        <div>
+            <form action="enquiry" method="post">
+                <h3>Comments</h3>
+                <p>let us know if there is more you want to add to our Membership Application Form</p>
+                <textarea name="comments" cols="20" rows="4">Enter your comments...</textarea>
+            </form>
+            
+        </div>
+
+    <div>
+        <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d12420.317875379225!2d-76.8836256!3d38.899298!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s450%20S%20350%20W%20Hartford%20City%20IN%204!5e0!3m2!1sen!2sus!4v1673315442553!5m2!1sen!2sus" 
+        width="600" 
+        height="450" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
+
+
     </body>
+
 </html>
