@@ -1,0 +1,88 @@
+body {
+
+        background-color: #bde0fe;
+        text-align: justify;
+}
+#header {
+        font-family: cursive;
+        text-align: center;
+        font-size: 150%;
+        color: #0077b6; 
+        letter-spacing: 0.2em;
+}
+
+#menu {
+        font-family: cursive;
+        color: #cdb4db;
+        text-align: justify;
+}
+#who-we-are {
+        font-family: cursive;
+        color: #f28482;
+        text-align: justify;
+}      
+#index-first-paragraph {
+        font-family: 'Verdana';
+        color: #231942;
+        text-align: justify;
+}
+#our-process {
+        font-family: cursive;
+        color: #f28482;
+        text-align: justify;
+}
+#index-second-paragraph {
+        font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+        color:#231942;
+        text-align: justify;
+}
+#why-aletheia {
+        font-family: cursive;
+        color:#f28482;
+        text-align: justify;
+}
+#index-third-paragraph {
+        font-family:'Verdana', Geneva, Tahoma, sans-serif;
+        color:#231942;
+        text-align: justify;
+}
+img.large {
+        width: 300px;
+        height: 300px;
+        display: block;
+        margin: 0px auto;
+        align-items: center;
+ }
+
+#calamar {
+        font-family: cursive;
+        color: #03045e;
+        align-self: center;
+        padding: 12px;
+}
+    
+#Membership-Application-Form {
+        font-family: cursive;
+        color: #ffb703;
+}
+#enquiry-first-paragraph {
+        font-family:'Lucida Sans';
+        color: #483509; 
+}
+#datos-personales {
+        font-family: cursive;
+        color: #ffb703; 
+}
+#address {
+        font-family: cursive;
+        color: #ffb703;
+}
+#Membership-plans {
+        font-family: cursive;
+        color: #ffb703;
+}
+#Comentarios {
+        font-family: cursive;
+        color: #252422;
+} 
+
